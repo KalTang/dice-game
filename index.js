@@ -38,6 +38,7 @@ function diceRolls() {
     ).src = `./images/dice${randomNumPlayer2}.png`;
 }
 
+// reload page button
 function refreshPage() {
     window.location.reload();
 }
