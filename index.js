@@ -2,18 +2,7 @@
 var randomNumPlayer1 = Math.floor(Math.random() * 6) + 1;
 var randomNumPlayer2 = Math.floor(Math.random() * 6) + 1;
 
-// image array
-// var diceArray = [
-//     'dice1.png',
-//     'dice2.png',
-//     'dice3.png',
-//     'dice4.png',
-//     'dice5.png',
-//     'dice6.png',
-// ];
-
 // condition
-
 // compare the two ints
 
 if (randomNumPlayer1 > randomNumPlayer2) {
@@ -27,7 +16,8 @@ if (randomNumPlayer1 > randomNumPlayer2) {
     diceRolls();
     document.querySelector('h1').innerHTML = 'Player 2 wins';
 }
-// test rolls
+// based on the number on random numbers given.
+// will change the file name by changing the last digit of that file to match the corresponding image name.
 function diceRolls() {
     document.getElementById(
         'img1'
